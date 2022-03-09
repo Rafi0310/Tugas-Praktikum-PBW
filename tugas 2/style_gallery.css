@@ -1,0 +1,23 @@
+.container {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.thumbnail {
+    width: 30%;
+    padding: 10px;
+    /* margin: 20px; */
+}
+
+.thumbnail img {
+    width: 100%;
+}

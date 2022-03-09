@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <!-- membuat tombol ketika di klik -->
+    <button onclick="myFunction()">Klik saya</button>
+
+    <script>
+        function myFunction() {
+            alert("Hello World!");
+        }
+
+        // membuat fungsi ketika di klik, tulisan akan berubah
+        function myFunction2() {
+            document.getElementById("demo").innerHTML = "Hello World!";
+        }
+        // membuat variabel nama depan dengan let
+        let namaDepan = "John";
+        // membuat variabel nama belakang dengan let 
+        let namaBelakang = "Doe";
+        // gabungkan variabel
+        let namaLengkap = namaDepan + " " + namaBelakang;
+        // tampilkan semua variabel
+        console.log(namaLengkap);
+        // membuat variabel nilai ujian dengan let
+        let nilaiUjian = 80;
+        // jika nilai kurang dari 50
+        if (nilaiUjian < 50) {
+            // tampilkan "Nilai kamu kurang dari 50"
+            console.log("Nilai kamu kurang dari 50");
+        } else {
+            // jika tidak
+            // tampilkan "Nilai kamu lebih dari 50"
+            console.log("Nilai kamu lebih dari 50");
+        }
+
+        // membuat data array dengan foreach
+        let buah = ["Apel", "Mangga", "Jeruk"];
+        // tampilkan data dengan looping foreach
+        buah.forEach(function (item, index) {
+            console.log(item);
+        });
+    </script>
+</body>
+
+</html>

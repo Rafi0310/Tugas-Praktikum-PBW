@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+//Ilham Safaat
+//2010631170081
+
+* {
+    margin: 0px;
+    padding: auto;
+}
+
+h3,h2 {
+    font-weight: 600;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.title  {
+    margin-top: 50px;
+}
+
+.title .profile {
+    margin-top: 5px;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-list {
+    margin: 50px 30px;
+}
+
+.main {
+    margin: 2px 30px;
+}
+
+.text-head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.text-head h2 {
+    font-weight: 600px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+.text {
+    width: 600px;
+}
+
+.content {
+    margin: 0 30px;
+}
+
+.contents {
+    margin-left: 300px;
+}
+
+.text-wrap {
+    margin-bottom: 20px;
+}
+
+.text {
+    color: rgb(54, 54, 54);
+}
+
